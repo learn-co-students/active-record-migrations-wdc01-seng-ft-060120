@@ -332,7 +332,7 @@ a = Artist.new(name: 'Jon')
 a.age = 30
 # => 30
 
-a.save
+a.age = 30
 # => true
 ```
 
@@ -430,7 +430,7 @@ rake db:rollback
 Then drop back into the console to double check:
 
 ```ruby
-Artist.column_names
+
 # => ["id", "name", "genre", "age", "hometown"]
 ```
 
