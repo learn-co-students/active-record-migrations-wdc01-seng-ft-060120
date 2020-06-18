@@ -10,10 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2) do
+ActiveRecord::Schema.definedo
 
   create_table "artists", force: :cascade do |t|
     t.string "name"
+    t.string "genre"
+    t.integer "age"
+    t.string "hometown"
     t.string "favorite_food"
   end
 
